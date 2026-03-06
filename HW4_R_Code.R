@@ -1,6 +1,6 @@
 # HW4 - R Code
 # This script covers Question 4 and Question 5 from your assignment.
-# Save this file as HW4_R_Code.R and run it in RStudio.
+
 
 # ==============================
 # SETUP
@@ -84,7 +84,7 @@ ggsave("Q4_gam_plot.png", plot = p_gam, width = 8, height = 5, dpi = 300)
 # ==============================
 # Make sure preprint_growth.rda is in your working directory.
 # You can check your working directory with: getwd()
-# You can change it with: setwd("your/folder/path")
+
 
 load("./preprint_growth.rda")
 
@@ -123,8 +123,5 @@ print(p_preprint)
 
 ggsave("Q5_preprint_counts.png", plot = p_preprint, width = 9, height = 5, dpi = 300)
 
-# ==============================
-# OPTIONAL: SESSION INFO
-# ==============================
-# Useful if your instructor wants reproducibility
+
 print(sessionInfo())
